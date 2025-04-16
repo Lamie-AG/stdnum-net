@@ -9,8 +9,7 @@ Country Validator is a .NET library that can validate **VAT codes, national iden
 - Validate Tax Identification Numbers For Companies
 
 ## Install
-**Nuget Package [CountryValidator](https://www.nuget.org/packages/CountryValidator/)**
-**Nuget Package [CountryValidator.DataAnnotations](https://www.nuget.org/packages/CountryValidator.DataAnnotations/)**
+--
 
 
 ```powershell
@@ -141,12 +140,3 @@ public IActionResult ValidateSSN([Required, SSNAttribute(Country.US)]string ssn)
 | South Africa         | ZA           | Social Number                                                                     | VAT Code                                                                    | VAT Code                                               | :heavy_check_mark: |
 
 
-<a href="https://www.buymeacoffee.com/valentinanghel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
-
-### License
-Copyright 2020 Anghel Valentin
-
-Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
-
-##### Special thanks
-[Python Stdnum](https://github.com/arthurdejong/python-stdnum)
